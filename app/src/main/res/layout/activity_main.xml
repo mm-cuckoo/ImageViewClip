@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.cfox.ivcliplib.CImageView
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="100dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.cfox.ivcliplib.CImageView
+                android:src="@mipmap/img"
+                android:layout_width="140dp"
+                android:layout_height="80dp" />
+
+            <com.cfox.ivcliplib.CImageView
+                android:src="@mipmap/img"
+                android:layout_alignParentRight="true"
+                android:layout_width="60dp"
+                android:layout_height="140dp" />
+
+            <com.cfox.ivcliplib.CImageView
+                android:src="@mipmap/img"
+                android:layout_alignParentBottom="true"
+                android:layout_width="70dp"
+                android:layout_height="180dp" />
+
+            <com.cfox.ivcliplib.CImageView
+                android:src="@mipmap/img"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="100dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/img_base1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img_a_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:id="@+id/img_b_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/img_c_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/img_d_d_s"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
