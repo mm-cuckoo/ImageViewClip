@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 OPENCV_LIB_TYPE:=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")
-include G:\AS_Work_Space\NDK\ImageViewClip\ivcliplib\src\main\opencv\jni\OpenCV.mk
+include ..\opencv\jni\OpenCV.mk
 else
 include $(OPENCV_MK_PATH)
 endif
