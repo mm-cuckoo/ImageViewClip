@@ -2,9 +2,7 @@
 在开发中我们经常需要对图片以人脸为中心进行剪切并显示，这时就需要下面这个工具了。
 
 ### 实现效果
-![实现效果](http://img.blog.csdn.net/20170612144622869?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzUwMTYzNw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
-#### [Demo及工程地址：https://github.com/CNCFOX/ImageViewClip](https://github.com/CNCFOX/ImageViewClip)
+<img src="http://img.blog.csdn.net/20170612144622869?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzUwMTYzNw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width = "540" height = "960" alt="实现效果" align=center /><br/>
 
 #### 项目参考及引用
 使用库： http://code.taobao.org/p/tclip/    
